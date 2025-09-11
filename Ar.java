@@ -7,7 +7,7 @@ public class Ar{
 
         // Taking Jagged array as input and printing
         System.out.print("Enter number of rows: ");
-        int rows = in.nextInt();
+        int rows = in.nextInt(); 
 
         int[][] arr = new int[rows][];
 

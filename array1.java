@@ -4,7 +4,7 @@ class array1 {
     public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the array size");
-    int arrSize = sc.nextInt();
+    int arrSize = sc.nextInt(); 
     int[] array = new int[arrSize]; 
     for(int j=0; j<arrSize; j++){
         System.out.println("Enter " + j + "th index value of the array");
@@ -18,7 +18,7 @@ class array1 {
 
     public static int largestElement(int[] nums) {
         if(nums == null || nums.length == 0){
-            System.out.println("Array us empty!");
+            System.out.println("Array is empty!");
             return -1;
         }
     int max = nums[0];
